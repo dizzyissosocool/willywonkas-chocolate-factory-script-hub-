@@ -45,16 +45,6 @@ for _, gun in next, library.Directory.Guns do
 end
 end)
 
-MainSection:NewToggle("Super Human", "Why tf do u want to use this in a shooter game??", function(state)
-    if state then
-        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 100
-        game.Players.LocalPlayer.Character.Humanoid.JumpPower = 120
-    else
-        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
-        game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
-        print("Toggle Off")
-    end
-end)
 
 
 MainSection:NewButton("Aimbot", "shoot all the black kids with this shit", function()
@@ -190,17 +180,6 @@ end)
 
 MainSection:NewButton("Aimbot", "shoot all the black kids with this shit", function()
     loadstring(game:HttpGet(("https://raw.githubusercontent.com/Herrtt/AimHot-v8/master/Main.lua"),true))()
-end)
-
-MainSection:NewToggle("Super Human", "Why tf do u want to use this in a shooter game??", function(state)
-    if state then
-        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 100
-        game.Players.LocalPlayer.Character.Humanoid.JumpPower = 120
-    else
-        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
-        game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
-        print("Toggle Off")
-    end
 end)
 
 
