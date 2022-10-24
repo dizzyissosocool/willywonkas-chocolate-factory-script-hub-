@@ -217,3 +217,24 @@ loadstring(game:HttpGet("https://gitlab.com/L1ZOT/mango-hub/-/raw/main/Mango-Blo
 end)
 
 
+-- MAIN
+local Main = Window:NewTab("DaHood")
+local MainSection = Main:NewSection("Oompa Loompa Section (Main Scripts)")
+
+
+
+MainSection:NewButton("Auto Farm GUI", "now u can simulate a black guy's life on easy mode", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/rogelioajax/lua/main/MangoHub'))()
+end)
+
+
+-- MAIN
+local Main = Window:NewTab("Work At A Pizza Place")
+local MainSection = Main:NewSection("Oompa Loompa Section (Main Scripts)")
+
+
+MainSection:NewButton("Auto Farm GUI", "become a teenage mutant ninja turtle", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/cEwtwKZR'))()
+end)
+
+
