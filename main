@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("WillyWonka's Chocolate Factory", "GrapeTheme")
+local Window = Library.CreateLib("Willy Wonka's Chocolate Facotory", "GrapeTheme")
 
 
 -- MAIN
